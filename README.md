@@ -35,6 +35,6 @@ chmod +x nameofyourscript.sh
 ```
 
 Url of the project: https://roadmap.sh/projects/server-stats
-
+:)
 
 
