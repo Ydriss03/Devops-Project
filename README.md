@@ -1,41 +1,39 @@
 #Server Performance Stats
 
+
 The goal is to have a Bash script that can analyze the basic performance of a Linux server.
 
 #Features:
 
-*CPU Usage
 
-*Disk Usage
+  
+The Goal is to have a bash script that can analyze basic performance of a Linux server 
 
-*Logged-in Users etc..
+  -CPU  Usage
+  -Disk Usage 
+  -User Logged etc..
 
-##Tools / Technologies:
+##Tools/Technologies: 
+  
+ -Ubuntu Linux
+ -VIM
+ -Shell Scripting 
+ -Git
+ - Linux CLI utilities 
+ 
 
-*Ubuntu Linux
+##How to run it
+ Once you have the script you can run it in your terminal to see the result you want him to be excutable 
+ Give the execution permissions on the file 
+```bash 
+chmod +x nameofyourscript.sh
 
-*Vim
+ Then Run it 
 
-*Shell Scripting
+./nameofyourscript.sh 
 
-*Git
 
-*Linux CLI utilities
+Url of the project: https://roadmap.sh/projects/server-stats
 
-#How to Run It
 
-Once you have the script, you can run it directly from your CLI.
 
-1. Give the script execution permissions
-   
-*chmod +x nameofyourscript.sh
-
-2.Run the script
-
-./nameofyourscript.sh
-
-The script will then display the server performance statistics in your terminal.
-
-Project URL
-
-Server Performance Stats - roadmap.sh
