@@ -1,15 +1,15 @@
 # Server Performance Stats
 
 
-The goal is to have a Bash script that can analyze the basic performance of a Linux server.
+The Goal is to have a Bash script that can analyze the basic performance of a Linux server.
 
 ## Features:
 
+### Display stats:
 
-  
-The Goal is to have a bash script that can analyze basic performance of a Linux server 
-
+  - OS name
   - CPU  Usage
+  - Memory
   - Disk Usage 
   - User Logged etc..
 
