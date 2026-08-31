@@ -1,8 +1,8 @@
-##Server Performance Stats
+#Server Performance Stats
 
 The goal is to have a Bash script that can analyze the basic performance of a Linux server.
 
-##Features:
+#Features:
 
 *CPU Usage
 
