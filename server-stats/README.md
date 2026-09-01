@@ -5,7 +5,7 @@ The Goal is to have a Bash script that can analyze the basic performance of a Li
 
 ## Features:
 
-### Display stats
+### Display stats:
 
   - OS name
   - CPU  Usage
@@ -23,7 +23,8 @@ The Goal is to have a Bash script that can analyze the basic performance of a Li
  
 
 ## How to run it
- Once you have the script you can run it in your terminal to see the result you want him to be excutable 
+ Once you have the script, you can run it in your terminal to see the result and you want him to be excutable
+ 
  Give the execution permissions on the file 
 ```bash 
 chmod +x nameofyourscript.sh
