@@ -1,4 +1,12 @@
 # Log Archive Tool
+
+## Overview
+ The Goal is to build a tool to archive logs on a define schedule by compressing and storing them in a new directory 
+
+
+## Tools/Technologies:
+
+
 ## Requirements
 
 
