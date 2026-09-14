@@ -1,16 +1,16 @@
 # Log Archive Tool
 
-## Overview
+## Overview:
  The Goal is to build a tool to archive logs on a define schedule by compressing and storing them in a new directory 
 
 
 ## Tools/Technologies:
+  
+
+## Requirements:
 
 
-## Requirements
-
-
-### Variant 1
+### Variant 1:
  Here the script will be executed manually from the CLI using 
 
 ```
