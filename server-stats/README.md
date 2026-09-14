@@ -3,7 +3,7 @@
 
 The Goal is to have a Bash script that can analyze the basic performance of a Linux server.
 
-## Features:
+
 
 ### Display stats:
 
