@@ -8,6 +8,7 @@
   - VIM
   - Shell Scripting 
   - Git 
+  - Tar 
 
 ## Requirements:
 
