@@ -4,6 +4,9 @@
 # Log Archive Tool
 # ==========================================
 
+# Email configuration
+EMAIL="administrator"
+
 # Check that a log directory was provided
 if [ $# -ne 1 ]; then
     echo "Usage: log-archive <log-directory>"
@@ -32,19 +35,32 @@ TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 ARCHIVE_FILE="$ARCHIVE_DIR/logs_$TIMESTAMP.tar.gz"
 
 # Create compressed archive
-sudo tar -czf "$ARCHIVE_FILE" -C "$(dirname "$LOG_DIR")" "$(basename "$LOG_DIR")"
+sudo tar --ignore-failed-read -czf "$ARCHIVE_FILE" \
+    -C "$(dirname "$LOG_DIR")" "$(basename "$LOG_DIR")"
 
 # Check whether archive was created successfully
 if [ $? -eq 0 ]; then
 
-    echo "$(date +"%Y-%m-%d %H:%M:%S") - Archive created: $ARCHIVE_FILE" | sudo tee -a "$LOG_FILE" > /dev/null
+    # Log successful archive
+    echo "$(date +"%Y-%m-%d %H:%M:%S") - Archive created: $ARCHIVE_FILE" \
+        | sudo tee -a "$LOG_FILE" > /dev/null
+
+    # Send success email
+    echo "Log archive created successfully: $ARCHIVE_FILE" \
+        | mail -s "Log Archive SUCCESS" "$EMAIL"
 
     echo "Archive successfully created:"
     echo "$ARCHIVE_FILE"
 
 else
 
-    echo "$(date +"%Y-%m-%d %H:%M:%S") - ERROR: Failed to archive $LOG_DIR" | sudo tee -a "$LOG_FILE" > /dev/null
+    # Log archive failure
+    echo "$(date +"%Y-%m-%d %H:%M:%S") - ERROR: Failed to archive $LOG_DIR" \
+        | sudo tee -a "$LOG_FILE" > /dev/null
+
+    # Send failure email
+    echo "Log archive failed for directory: $LOG_DIR" \
+        | mail -s "Log Archive FAILED" "$EMAIL"
 
     echo "Error: Failed to create archive."
     exit 1
