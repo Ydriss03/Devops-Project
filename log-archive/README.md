@@ -21,4 +21,6 @@ You need to make the script executable `` chmod +x``
  Automate the execution of the tool for a daily execution by  creating a new cronjob
 ```
 01 12 * * * /usr/local/bin/log-archive /var/log
-```  
+``` 
+
+:) 
