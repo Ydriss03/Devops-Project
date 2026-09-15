@@ -15,4 +15,12 @@
 
 ### Variant 1:
  Here the script will be executed manually from the CLI using `` log-archive /var/log`` with ``/var/log`` being the argument and log-archive the command
-You need to make the script executable `` chmod +x`` 
+You need to make the script executable `` chmod +x``
+
+
+
+### Variant 2: 
+ Automate the execution of the tool by  creating a new cronjob
+```
+01 12 * * * /usr/local/bin/log-archive /var/log
+```  
