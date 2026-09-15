@@ -23,4 +23,4 @@ You need to make the script executable `` chmod +x``
 01 12 * * * /usr/local/bin/log-archive /var/log
 ``` 
 
-:) 
+ 
