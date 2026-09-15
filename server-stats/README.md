@@ -15,7 +15,7 @@ The Goal is to have a Bash script that can analyze the basic performance of a Li
 
 ## Tools/Technologies: 
   
- - Ubuntu Linux
+ - Linux-based system
  - VIM
  - Shell Scripting 
  - Git
