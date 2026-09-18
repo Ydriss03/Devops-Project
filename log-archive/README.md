@@ -1,7 +1,7 @@
 # Log Archive Tool
 
 ## Overview:
- The Goal is to build a tool to archive logs on a define schedule by compressing and storing them in a new directory  and notify the admin via email if the archive was successful or not 
+ The Goal is to build a tool to archive logs on a define schedule by compressing and storing them in a new directory  and notify the admin via email if the archive was successful or not. 
 
 ## Tools/Technologies:
   - Linux-based system and Utilities 
@@ -25,4 +25,5 @@ You need to make the script executable `` chmod +x``
 
 ### Variant 3:
 
-Adding the mailing features to the script so an email will be send for now locally, after the completion of the archive. 
+Adding the mailing features to the script so an email will be send for now locally, after the completion of the archive.
+ 
