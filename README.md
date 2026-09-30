@@ -37,6 +37,6 @@ chmod +x nameofyourscript.sh
 Url of the project: https://roadmap.sh/projects/server-stats
 :)
 
-log-archive project: https://github.com/Ydriss03/Devops-Project/tree/1fb312e8ee14f83f23407508e8f0bb4f02cf1351/log-archive
+log-archive project: https://roadmap.sh/projects/log-archive-tool
 
 
