@@ -27,4 +27,4 @@
 Adding the mailing features to the script so an email will be send for now locally, after the completion of the archive.
 :)
 
-Project from:https://roadmap.sh/projects/log-archive-tool
+Project from: https://roadmap.sh/projects/log-archive-tool
