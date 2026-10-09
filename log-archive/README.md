@@ -27,4 +27,4 @@ Adding the mailing features to the script so an email will be send for now local
 
 
 Project from: https://roadmap.sh/projects/log-archive-tool 
- 
+:) 
